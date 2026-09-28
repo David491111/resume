@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+canvas{
+    width: 320px;
+    height: 640px;
+    background-color: black;
+    border: 10px solid blue;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+div{
+    color: white;
+}
+#score{
+    width: 300px;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: -300px;
+}
+#figures{
+    width: 300px;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
+#wn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
